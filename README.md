@@ -29,7 +29,8 @@ pin 5 (Data) ───────┬──────── GPIO4
                     │
                   3V3
 
->#Here are the result for a XT211
+#Here are the result for a XT211
+
  0-0:1.0.0(261105135123W)
  
  0-0:96.1.1(353733353631)
