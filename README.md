@@ -3,12 +3,12 @@ The purpose is to read the output of the P1 connector of smart-meter
 
 RJ11 connector
 
-P1 pin         —->  ESP32 Pin
-2 - RTS	       —->  3.3v
-3 - GND	       —->  GND
+P1 pin			—->		ESP32 Pin
+2 - RTS			—->		3.3v
+3 - GND			—->		GND
 4 -	
 
-5 - RXD (data) —->	RX (gpio4)
+5 - RXD (data)	—->	RX (gpio4)
 
 
 
@@ -24,11 +24,8 @@ pin 5 (Data) ───────┬──────── GPIO4
 #Here are the result for a XT211
 
  0-0:1.0.0(261105135123W)
- 
  0-0:96.1.1(353733353631)
- 
  1-0:1.8.1(001330.083*kWh)
- 
  1-0:1.8.2(000948.870*kWh)
  
  1-0:2.8.1(009290.728*kWh)
