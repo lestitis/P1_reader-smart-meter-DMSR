@@ -1,19 +1,11 @@
 # P1_reader-smart-meter on ESP32
 The purpose is to read the output of the P1 connector of smart-meter
 
-
-
-
-
-
 RJ11 connector
 
 P1 pin         —->  ESP32 Pin
-
 2 - RTS	       —->  3.3v
-
 3 - GND	       —->  GND
-
 4 -	
 
 5 - RXD (data) —->	RX (gpio4)
@@ -92,6 +84,9 @@ pin 5 (Data) ───────┬──────── GPIO4
  
  1-0:62.7.0(00.256*kW)
  
+
+
+
 
 
 
