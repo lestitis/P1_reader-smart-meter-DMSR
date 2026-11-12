@@ -1,6 +1,9 @@
 # P1_reader-smart-meter on ESP32
 The purpose is to read the output of the P1 connector of smart-meter
 
+
+
+
 RJ11 connector
 
 P1 pin			—->		ESP32 Pin
@@ -15,7 +18,6 @@ P1 pin			—->		ESP32 Pin
 
 
 
-
 Sagecom T211 , S211 , XT211 and on most Landys and Gyr models a 10K resistor should be used between the ESP's 3.3v and the p1's DATA (RXD) pin. 
 
 pin 5 (Data) ───────┬──────── GPIO4
@@ -23,6 +25,7 @@ pin 5 (Data) ───────┬──────── GPIO4
                 10 kΩ
                     │
                   3V3
+
 
 #Here are the result for a XT211
 
@@ -87,6 +90,7 @@ pin 5 (Data) ───────┬──────── GPIO4
  
  1-0:62.7.0(00.256*kW)
  
+load the prog into esp32 with arduino IDE
 
 
 
