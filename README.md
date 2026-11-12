@@ -21,9 +21,12 @@ P1 pin			—->		ESP32 Pin
 Sagecom T211 , S211 , XT211 and on most Landys and Gyr models a 10K resistor should be used between the ESP's 3.3v and the p1's DATA (RXD) pin. 
 
 pin 5 (Data) ───────┬──────── GPIO4
+
                     │
+
                 10 kΩ
-                    │
+                    
+					│
                   3V3
 
 
