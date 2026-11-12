@@ -28,6 +28,12 @@ pin 5 (Data) ───────┬──────── GPIO4
                   3V3
 				  
 
+pin 5 (Data) ───────┬──────── GPIO4
+                    │
+                10 kΩ
+                    │
+                  3V3
+
 
 #Here are the result for a XT211
 
