@@ -97,7 +97,11 @@ pin 5 (Data) ───────┬──────── GPIO4
  
  1-0:62.7.0(00.256*kW)
  
-load the prog into esp32 with arduino IDE
+load the prog into esp32 with arduino IDE ESP32_P1_READER_DSMR_du_P1_meter.ino
+
+connect to 192.168.4.1. fill the network and the passed
+
+
 
 
 
