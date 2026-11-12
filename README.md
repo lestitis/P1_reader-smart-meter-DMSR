@@ -33,6 +33,7 @@ pin 5 (Data) ───────┬──────── GPIO4
 		
 
 
+
 #Here are the result for a XT211
 
  0-0:1.0.0(261105135123W)
