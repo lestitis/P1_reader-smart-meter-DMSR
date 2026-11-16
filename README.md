@@ -5,9 +5,9 @@ The purpose is to read the output of the P1 connector of smart-meter
 
 
 RJ11 connector
-P1 pin			—->		ESP32 Pin
-2 - RTS			—->		3.3v
-3 - GND			—->		GND
+P1 pin			—->		ESP32 Pin\n
+2 - RTS			—->		3.3v\n
+3 - GND			—->		GND\n
 4 -	
 5 - RXD (data)	—->	RX (gpio17)
 
