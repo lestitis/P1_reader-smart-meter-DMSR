@@ -14,7 +14,7 @@ P1 pin			—->		ESP32 Pin
 
 4 -	
 
-5 - RXD (data)	—->	RX (gpio4)
+5 - RXD (data)	—->	RX (gpio17)
 
 
 
