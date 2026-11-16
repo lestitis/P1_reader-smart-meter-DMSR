@@ -5,6 +5,7 @@ The purpose is to read the output of the P1 connector of smart-meter
 
 
 RJ11 connector
+
 P1 pin			—->		ESP32 Pin
 
 2 - RTS			—->		3.3v
