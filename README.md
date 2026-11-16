@@ -3,20 +3,17 @@ The purpose is to read the output of the P1 connector of smart-meter
 
 
 
+connection
 
-RJ11 connector
+RJ11-P1 pin			—->		ESP32 Pin
 
-P1 pin			—->		ESP32 Pin
+	2 - RTS			—->		3.3v
 
-2 - RTS			—->		3.3v
+	3 - GND			—->		GND
 
-3 - GND			—->		GND
+	4 -	
 
-4 -	
-
-5 - RXD (data)	—->	RX (gpio17)
-
-
+	5 - RXD (data)	 —->	RX (gpio17)
 
 Sagecom T211 , S211 , XT211 and on most Landys and Gyr models a 10K resistor should be used between the ESP's 3.3v and the p1's DATA (RXD) pin. 
 
@@ -24,13 +21,16 @@ Sagecom T211 , S211 , XT211 and on most Landys and Gyr models a 10K resistor sho
 
 pin 5 (Data) ───────┬──────── GPIo17
 
-                           │
-                          10 kΩ
-				
-                           │
-                          3V3
+                    	│
+                		10 kΩ
+						
+                    	│
+						 
+                		3V3
 
 		
+
+
 
 
 
@@ -83,6 +83,7 @@ pin 5 (Data) ───────┬──────── GPIo17
  1-0:51.7.0(001*A)
  
  1-0:71.7.0(001*A)
+ 
  0-0:96.13.0()
  
  1-0:21.7.0(00.000*kW)
@@ -98,8 +99,10 @@ pin 5 (Data) ───────┬──────── GPIo17
  1-0:62.7.0(00.256*kW)
  
 load the prog into esp32 with arduino IDE ESP32_P1_READER_DSMR_du_P1_meter.ino
+connect to 192.168.4.1. fill the network and the passwd
 
-connect to 192.168.4.1. fill the network and the passed
+
+
 
 
 
