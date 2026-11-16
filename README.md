@@ -24,10 +24,10 @@ Sagecom T211 , S211 , XT211 and on most Landys and Gyr models a 10K resistor sho
 
 pin 5 (Data) ───────┬──────── GPIo17
 
-                           │
+                          │
                           10 kΩ
 				
-                           │
+                          │
                           3V3
 
 		
